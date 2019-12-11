@@ -13,7 +13,7 @@ header
     margin: 0 auto
     position: relative
     top: calc(16%)
-    box-shadow: 0px 0px 35px 10px rgba(0, 0, 0, 0.1)
+    box-shadow: 0 0 35px 10px rgba(0, 0, 0, 0.1)
     backdrop-filter: blur(11px)
     @media screen and (max-height: 1070px)
         top: calc(14%)
@@ -51,20 +51,21 @@ header
         border: 1px solid #3e9ffd 
     &__password input
         margin-bottom: 48px 
+    &__check label 
+        display: flex
+        align-items: center
     &__check
         font-size: 26px
         color: #636363
         font-weight: 400
         margin-bottom: 90px
         text-align: left
-        display: flex
-        align-items: center
         letter-spacing: 1.2px
         @media screen and (max-height: 1070px)
             font-size: 22px
             margin-bottom: 80px
     &__button button 
-        padding: 25px 153px
+        padding: 25px 154px
         font-size: 32px
         background: #3e9ffd
         color: #fff 
@@ -75,11 +76,11 @@ header
         cursor: pointer
         @media screen and (max-height: 1070px)
             font-size: 30px
+            padding: 25px 138px
     &__button button:hover
         background: #fff
         color: #3e9ffd
-        box-shadow: 0px 0px 18px -6px rgba(0,0,0,0.5)
-        border-radius: 50px
+        box-shadow: 0 0 18px -6px rgba(0,0,0,0.5)
     &__button button:active
         transform: scale(0.95)
     &__img
@@ -92,7 +93,7 @@ header
         top: -100px
         left: 270px
         border-radius: 35px
-        box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.1)
+        box-shadow: 0 10px 15px 1px rgba(0, 0, 0, 0.1)
         @media screen and (max-height: 1070px)
             width: 160px
             height: 160px
@@ -141,7 +142,7 @@ header
 
 
 input[type="checkbox"]
-    margin-right: 12px
+    margin-right: 14px
 
 
   

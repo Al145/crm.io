@@ -38,8 +38,8 @@ header {
   margin: 0 auto;
   position: relative;
   top: calc(16%);
-  -webkit-box-shadow: 0px 0px 35px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 0px 35px 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 35px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 35px 10px rgba(0, 0, 0, 0.1);
   -webkit-backdrop-filter: blur(11px);
           backdrop-filter: blur(11px);
 }
@@ -111,18 +111,21 @@ header {
   margin-bottom: 48px;
 }
 
-.header__check {
-  font-size: 26px;
-  color: #636363;
-  font-weight: 400;
-  margin-bottom: 90px;
-  text-align: left;
+.header__check label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header__check {
+  font-size: 26px;
+  color: #636363;
+  font-weight: 400;
+  margin-bottom: 90px;
+  text-align: left;
   letter-spacing: 1.2px;
 }
 
@@ -134,7 +137,7 @@ header {
 }
 
 .header__button button {
-  padding: 25px 153px;
+  padding: 25px 154px;
   font-size: 32px;
   background: #3e9ffd;
   color: #fff;
@@ -149,15 +152,15 @@ header {
 @media screen and (max-height: 1070px) {
   .header__button button {
     font-size: 30px;
+    padding: 25px 138px;
   }
 }
 
 .header__button button:hover {
   background: #fff;
   color: #3e9ffd;
-  -webkit-box-shadow: 0px 0px 18px -6px rgba(0, 0, 0, 0.5);
-          box-shadow: 0px 0px 18px -6px rgba(0, 0, 0, 0.5);
-  border-radius: 50px;
+  -webkit-box-shadow: 0 0 18px -6px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 18px -6px rgba(0, 0, 0, 0.5);
 }
 
 .header__button button:active {
@@ -177,8 +180,8 @@ header {
   top: -100px;
   left: 270px;
   border-radius: 35px;
-  -webkit-box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 10px 15px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 15px 1px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-height: 1070px) {
@@ -262,7 +265,7 @@ header {
 }
 
 input[type="checkbox"] {
-  margin-right: 12px;
+  margin-right: 14px;
 }
 
 @font-face {
