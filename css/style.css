@@ -273,6 +273,28 @@ input[type="checkbox"] {
   margin-right: 14px;
 }
 
+@-webkit-keyframes slide-in-fwd-top {
+  0% {
+    -webkit-transform: translateZ(-400px) translateY(-800px) perspective(600px) rotateX(300deg);
+            transform: translateZ(-400px) translateY(-800px) perspective(600px) rotateX(300deg);
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0) perspective(600px) rotateX(0deg);
+            transform: translateZ(0) translateY(0) perspective(600px) rotateX(0deg);
+  }
+}
+
+@keyframes slide-in-fwd-top {
+  0% {
+    -webkit-transform: translateZ(-400px) translateY(-800px) perspective(600px) rotateX(300deg);
+            transform: translateZ(-400px) translateY(-800px) perspective(600px) rotateX(300deg);
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0) perspective(600px) rotateX(0deg);
+            transform: translateZ(0) translateY(0) perspective(600px) rotateX(0deg);
+  }
+}
+
 @font-face {
   font-family: HelveticaNeue-Thin;
   font-weight: 400;
