@@ -82,7 +82,8 @@ header {
   padding-bottom: 80px;
 }
 
-.header__user input, .header__password input {
+.header__user input,
+.header__password input {
   padding: 15px 170px 15px 20px;
   font-size: 32px;
   font-weight: 300;
@@ -93,7 +94,8 @@ header {
 }
 
 @media screen and (max-height: 1070px) {
-  .header__user input, .header__password input {
+  .header__user input,
+  .header__password input {
     padding: 12px 150px 12px 15px;
     font-size: 30px;
   }
@@ -103,7 +105,10 @@ header {
   margin-bottom: 40px;
 }
 
-.header__user input:hover, .header__user input:focus, .header__password input:hover, .header__password input:focus {
+.header__user input:hover,
+.header__user input:focus,
+.header__password input:hover,
+.header__password input:focus {
   border: 1px solid #3e9ffd;
 }
 
