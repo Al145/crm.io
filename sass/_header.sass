@@ -1,0 +1,147 @@
+header
+    background-image: url(../img/back1.jpg)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: 50% 50%
+    height: 100vh
+    background-color: #cce9dc
+.header
+    max-width: 720px
+    max-height: 840px
+    text-align: center
+    background: rgba(255,255,255,0.7)
+    margin: 0 auto
+    position: relative
+    top: calc(16%)
+    box-shadow: 0px 0px 35px 10px rgba(0, 0, 0, 0.1)
+    backdrop-filter: blur(11px)
+    @media screen and (max-height: 1070px)
+        top: calc(14%)
+        max-width: 620px
+        max-height: 740px
+    &__text h1 
+        font-size: 60px
+        text-transform: uppercase
+        font-weight: 400
+        padding-top: 150px
+        @media screen and (max-height: 1070px)
+            font-size: 55px
+    &__text p 
+        font-size: 35px
+        opacity: .5
+        margin-bottom: 75px
+        @media screen and (max-height: 1070px)
+            font-size: 30px
+            margin-bottom: 50px
+    &__form-text, &__button
+        padding-bottom: 80px
+    &__user input, &__password input
+        padding: 15px 170px 15px 20px
+        font-size: 32px
+        font-weight: 300
+        font-family: HelveticaNeue-Thin, sans-serif
+        border: 1px solid #636363
+        transition: .3s linear
+        @media screen and (max-height: 1070px)
+            padding: 12px 150px 12px 15px
+            font-size: 30px
+    &__user input
+        margin-bottom: 40px
+    &__user input:hover, &__user input:focus, &__password input:hover, &__password input:focus
+        border: 1px solid #3e9ffd 
+    &__password input
+        margin-bottom: 48px 
+    &__check
+        font-size: 26px
+        color: #636363
+        font-weight: 400
+        margin-bottom: 90px
+        text-align: left
+        display: flex
+        align-items: center
+        letter-spacing: 1.2px
+        @media screen and (max-height: 1070px)
+            font-size: 22px
+            margin-bottom: 80px
+    &__button button 
+        padding: 25px 153px
+        font-size: 32px
+        background: #3e9ffd
+        color: #fff 
+        font-weight: 400
+        font-family: HelveticaNeue-Thin, sans-serif
+        border: none
+        transition: .3s ease-out
+        cursor: pointer
+        @media screen and (max-height: 1070px)
+            font-size: 30px
+    &__button button:hover
+        background: #fff
+        color: #3e9ffd
+        box-shadow: 0px 0px 18px -6px rgba(0,0,0,0.5)
+        border-radius: 50px
+    &__button button:active
+        transform: scale(0.95)
+    &__img
+        position: relative
+    &__img_logo
+        width: 180px
+        height: 180px
+        background: #fff
+        position: absolute
+        top: -100px
+        left: 270px
+        border-radius: 35px
+        box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.1)
+        @media screen and (max-height: 1070px)
+            width: 160px
+            height: 160px
+            top: -75px
+            left: 230px
+    &__img_logo-orange,&__img_logo-purple,&__img_logo-blue,&__img_logo-green
+        width: 55px
+        height: 55px
+        position: absolute
+        border-radius: 15px
+        opacity: .8
+        filter: brightness(95%)
+        @media screen and (max-height: 1070px)
+            width: 50px
+            height: 50px
+    &__img_logo-orange
+        background: #f8911d
+        top: -72px
+        left: 317px
+        @media screen and (max-height: 1070px)
+            left: 270px
+            top: -50px
+    &__img_logo-purple
+        background: #d1369c
+        top: -55px
+        left: 345px
+        z-index: 2
+        @media screen and (max-height: 1070px)
+            top: -35px
+            left: 295px
+    &__img_logo-blue
+        background: #3e9ffd
+        top: -17px
+        left: 317px
+        @media screen and (max-height: 1070px)
+            top: 0
+            left: 270px
+    &__img_logo-green
+        background: #4ebf49
+        top: 0
+        left: 345px
+        z-index: 2
+        @media screen and (max-height: 1070px)
+            top: 15px
+            left: 295px
+
+
+input[type="checkbox"]
+    margin-right: 12px
+
+
+  
